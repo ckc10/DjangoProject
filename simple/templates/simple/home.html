@@ -1,0 +1,10 @@
+{% extends "simple/base.html" %}
+{% block content %}
+<body>
+        <h1>Performance Engineering - Tech Mahindra</h1>
+        <p> This is the first round of recruitment process,
+            Please register using the link below to proceed further.</p>
+        <a href="{% url 'register' %}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Register Now</a>
+        <a href="{% url 'login' %}" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Login</a>
+</body>
+{% endblock content %}
