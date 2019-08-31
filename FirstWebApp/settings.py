@@ -24,7 +24,7 @@ SECRET_KEY = '&z8ndwtf*0h0mp+r(k1z6bnck9mibr*y)zf4sbn+h)*j^hey5@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['pemcq.herokuapp.com']
 
 # Application definition
 # SimpleConfig
